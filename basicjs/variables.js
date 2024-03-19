@@ -10,3 +10,4 @@ accountPassword=12345
 accountCity='banglor'
 
 console.table([accountEmail,accountId,accountPassword,accountCity])
+
