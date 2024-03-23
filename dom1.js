@@ -3,7 +3,7 @@
 // console.log(parent);
 
 
-//---> how to access children property using parent
+//---> how to access children property using parent/
 // console.log(parent.children);
 // console.log(parent.children[0].innerText);
 
@@ -49,3 +49,47 @@
 // //now add this div into html body
 
 // document.body.appendChild(div)
+
+
+// const java=document.createElement("li")
+// java.innerHTML="java"
+// document.querySelector(".language").appendChild(java)
+
+//---> add Elements using function
+// function addlng(lname) {
+//   const li=document.createElement("li");
+//   li.innerHTML=`${lname}`
+//   document.querySelector(".language").appendChild(li)
+// }
+// addlng("phyton");
+// addlng("typescript");
+// addlng("C#")
+
+//create textnode inside li
+
+// function addlng(lname) {
+//   let li=document.createElement("li")
+//   li.appendChild(document.createTextNode(lname))
+//    document.querySelector(".language").appendChild(li)  
+// }
+// addlng("golang")
+// addlng("C")
+// addlng("C++")
+
+// --->Edit values of an element
+// const secondlang=document.querySelector("li:nth-child(2)")
+// secondlang.innerHTML="mojo"
+// secondlang.appendChild(document.createTextNode(" moja"))
+
+// const newli=document.createElement("li")
+// newli.textContent="Mojo"
+// secondlang.replaceWith(newli)
+
+//or
+// const flang=document.querySelector("li:first-child")
+// flang.outerHTML='<li>typescript</li>'
+
+//--remove element
+
+// const llang=document.querySelector("li:last-child")
+// llang.remove()
