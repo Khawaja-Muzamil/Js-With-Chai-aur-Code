@@ -11,6 +11,7 @@
 // console.log(parent.children[i].innerHTML);  
 // }
 // parent.children[1].style.color="red";
+// parent.firstElementChild.style.color="blue";
 // console.log(parent.firstElementChild.innerHTML);
 // console.log(parent.lastElementChild.innerHTML);
 
@@ -31,24 +32,27 @@
 //----> creat element 
 
 // const div=document.createElement('div')
-// // console.log(div);
+// console.log(div);
 // div.className='main'
 // // div.id="myid"
 // div.id=Math.round(Math.random()*10 +1)
 
 // //set attribute set values or add classes
+
 // div.setAttribute('title',"generated title")
 // div.style.backgroundColor="green";
 // div.innerText="chai aur code"
-
-// console.log(div.innerHTML);
-
-// // const addtext=document.createTextNode("learning javascript")
-// // div.appendChild(addtext);
+// console.log(div);
 
 // //now add this div into html body
-
 // document.body.appendChild(div)
+
+//creat new li and add it into div element.
+
+// const li=document.createElement('li')
+// li.innerHTML="Created New Li"
+// div.appendChild(li);
+// console.log(div);
 
 
 // const java=document.createElement("li")
@@ -56,6 +60,7 @@
 // document.querySelector(".language").appendChild(java)
 
 //---> add Elements using function
+
 // function addlng(lname) {
 //   const li=document.createElement("li");
 //   li.innerHTML=`${lname}`
@@ -77,19 +82,23 @@
 // addlng("C++")
 
 // --->Edit values of an element
+
 // const secondlang=document.querySelector("li:nth-child(2)")
-// secondlang.innerHTML="mojo"
-// secondlang.appendChild(document.createTextNode(" moja"))
+// // console.log(secondlang);
+// secondlang.innerHTML="Mojo"
+
+//using replace 
 
 // const newli=document.createElement("li")
 // newli.textContent="Mojo"
 // secondlang.replaceWith(newli)
 
 //or
+
 // const flang=document.querySelector("li:first-child")
 // flang.outerHTML='<li>typescript</li>'
 
 //--remove element
 
-// const llang=document.querySelector("li:last-child")
-// llang.remove()
+// const rmlang=document.querySelector("li:last-child")
+// rmlang.remove()
