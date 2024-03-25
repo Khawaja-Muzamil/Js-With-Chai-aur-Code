@@ -25,6 +25,7 @@
 // console.log(dayone.nextElementSibling.innerText);
 
 //shows child nodes.
+
 // const parent=document.querySelector(".parent");
 // console.log("NODES:", parent.childNodes);
 
@@ -40,6 +41,7 @@
 // //set attribute set values or add classes
 
 // div.setAttribute('title',"generated title")
+// div.setAttribute('classNmae',"master")
 // div.style.backgroundColor="green";
 // div.innerText="chai aur code"
 // console.log(div);
