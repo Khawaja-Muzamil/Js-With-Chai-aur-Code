@@ -55,6 +55,7 @@
 // },false);
 
 //--->preventDefault
+
 // document.getElementById("google").addEventListener(('click'),(e)=>{
 //   console.log('google clicked');
 // e.preventDefault();
@@ -63,20 +64,18 @@
 // project onclick image remove the img
 
 // document.querySelector("#images").addEventListener(('click'),(e)=>{
-  // console.log(e.target);
-  // console.log(e.target.parentNode);
-  // let rmv=e.target.parentNode;
-  // rmv.remove();
-  //or
-  // rmv.parentNode.removeChild(rmv);
+//   console.log(e.target);
+//   console.log(e.target.parentNode);
+//   let rmv=e.target.parentNode;
+//   rmv.remove();
 // })
 
-//tagNmae
-document.querySelector("#images").addEventListener(('click'),(e)=>{
-  // console.log(e.target.tagName);
-  if(e.target.tagName==="IMG"){
-    // console.log(e.target.id);
-  let rmv=e.target.parentNode;
-  rmv.remove();
-  }
-})
+// //tagNmae
+// document.querySelector("#images").addEventListener(('click'),(e)=>{
+// //   // console.log(e.target.tagName);
+//   if(e.target.tagName==="IMG"){
+//     console.log(e.target.id);
+//   let rmv=e.target.parentNode;
+//   rmv.remove();
+//   }
+// })

@@ -1,6 +1,7 @@
 //==> set timeout
 // setTimeout(() => {
 //   console.log('Muzamil');
+//   document.querySelector("h1").innerHTML="Muzamil"
 // },1000);
 
 //or
@@ -20,41 +21,43 @@
 
 
 //==> set interval
+// (for start and stop running program)
 // const saydate=() => {
-  // console.log('muzamil');
+//   console.log('muzamil');
 // }
-// const intervalid=setInterval(saydate,1000);
+// let intervalid=setInterval(saydate,1000);
+// document.querySelector("#start").addEventListener(('click'),(e)=>{
+//  intervalid = setInterval(saydate,1000);
+// })
 // document.querySelector("#stop").addEventListener(('click'),(e)=>{
 // clearInterval(intervalid)
 // })
-// document.querySelector("#start").addEventListener(('click'),(e)=>{
-// setInterval(saydate,1000);
-// })
 
+//change body color after some interval and use start and stop (for stop the body color change)
 
-const randomcolor=()=>{
-  const hex="0123456789abcdef";
-  let color="#"
-  for(i=0;i<6;i++){
-    color += hex[Math.floor(Math.random()*16)];
-  }
-  return color;
-}
-// console.log(randomcolor());
-let intervalId;
-const startchangingcolor=function(){
-  if(!intervalId){
-   intervalId=setInterval(changebgcolor,1000);
-  }
-    function changebgcolor(){
-      document.body.style.backgroundColor=randomcolor();
-    }
+// const randomcolor=()=>{
+//   const hex="0123456789abcdef";
+//   let color="#"
+//   for(i=0;i<6;i++){
+//     color = color + hex[Math.floor(Math.random()*16)];
+//   }
+//   return color;
+// }
+// // console.log(randomcolor());
+// let intervalId;
+// const startchangingcolor=function(){
+//   if(!intervalId){
+//    intervalId=setInterval(changebgcolor,1000);
+//   }
+//     function changebgcolor(){
+//       document.body.style.backgroundColor=randomcolor();
+//     }
 
-}
-const stopchangingcolor=function(){
-clearInterval(intervalId);
-intervalId=null;
+// }
+// const stopchangingcolor=function(){
+// clearInterval(intervalId);
+// intervalId=null;
 
-}
-document.querySelector("#start").addEventListener('click',startchangingcolor);
-document.querySelector("#stop").addEventListener('click',stopchangingcolor);
+// }
+// document.querySelector("#start").addEventListener('click',startchangingcolor);
+// document.querySelector("#stop").addEventListener('click',stopchangingcolor);
