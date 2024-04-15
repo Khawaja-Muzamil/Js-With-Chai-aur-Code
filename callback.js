@@ -12,7 +12,7 @@
 
 // 1----> GEC store in THIS
 
-//2---->  Memory Phase(in this phase all variables names are stored and its value is  undefined,  the value of the function is its defination).
+//2---->  Memory Phase(in this phase all variable names are stored and its value is  undefined,  the value of the function is its defination).
 
 //3--->  Execution phase (in this phase variables have given there values which is given in the code)
 

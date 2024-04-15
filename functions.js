@@ -11,16 +11,14 @@
 // function login(name) {
 //   if(!name){
 //     console.log('please enter a user name');
-//     return
 //   }
 //   return `${name} just logged in`
 // }
-// // console.log( login('muzamil'));
-// console.log( login());
- 
+// console.log( login('muzamil'));
+// // login(); 
  
 // function calculate(val1, val2,...num1){ //(...restOperator)
-// return num1;
+// return val1+val2+ num1;
 // }
 // console.log(calculate(2,33,444));
 
@@ -45,15 +43,14 @@
 //scope in js
 
 // let a=100;
-
 // if(true){
 //   // let a=10;
 //   const b=20;
 //   var c =30;
-//   console.log(a);
+//   // console.log(a);
 // }
 // console.log(b);
-// // console.log(c);
+// console.log(c);
 //  we ca access global scope in block scope but cant acces block scope in global scope
 
 // nested scope
@@ -69,19 +66,19 @@
 //   }
 //   two();
 // }
-// one()
+// one();
 
-// if(true){
-//   let name='muzamil'
-//   if(name==='muzamil'){
-//     const web='youtube'
-//     console.log(web);
-//   }
-//   console.log(name);
-// }
+  // let name='muzamil'
+  // if(name==='muzamil'){
+  //   const web='youtube'
+  //   console.log(web);
+  // }
+  // console.log(name);
+
 
 
 //function decleration
+
 // console.log(addone(5));
 // function addone(num){
 // return num+1;
@@ -124,7 +121,7 @@
 //   let namee='muzamil'
 //   console.log(this.namee);
 // }
-// chai()
+// chai();
 
 
 // const chai=()=>{

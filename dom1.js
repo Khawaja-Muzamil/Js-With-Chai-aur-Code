@@ -33,17 +33,17 @@
 //----> creat element 
 
 // const div=document.createElement('div')
-// console.log(div);
 // div.className='main'
 // // div.id="myid"
 // div.id=Math.round(Math.random()*10 +1)
+// console.log(div);
 
 // //set attribute set values or add classes
 
 // div.setAttribute('title',"generated title")
 // div.setAttribute('classNmae',"master")
-// div.style.backgroundColor="green";
 // div.innerText="chai aur code"
+// div.style.backgroundColor="green";
 // console.log(div);
 
 // //now add this div into html body
@@ -87,7 +87,7 @@
 
 // const secondlang=document.querySelector("li:nth-child(2)")
 // // console.log(secondlang);
-// secondlang.innerHTML="Mojo"
+// secondlang.innerHTML="mojo"
 
 //using replace 
 

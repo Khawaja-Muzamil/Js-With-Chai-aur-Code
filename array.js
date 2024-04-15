@@ -14,7 +14,7 @@
 // array methods
 
 // // push
-const myary=[0,1,2,3,4,5,true,'muzamil']
+// const myary=[0,1,2,3,4,5,true,'muzamil']
 // myary.push(6);
 // console.log(myary);
 
@@ -25,11 +25,12 @@ const myary=[0,1,2,3,4,5,true,'muzamil']
 //includes
 // console.log(myary.includes(5));
 //indexof
-// console.log(myary.indexOf(3));
+// console.log(myary.indexOf(true));
 
 // const newary=myary.join();
 // console.log(myary);
 // console.log(newary);
+// console.log(typeof newary);
 
 //slice (orginal array is not changed)
 
@@ -39,6 +40,7 @@ const myary=[0,1,2,3,4,5,true,'muzamil']
 // console.log(myary);
 
 //splice(in this orginal array is changed )
+// console.log(myary);
 // const new1=myary.splice(0,3);
 // console.log(new1);
 // console.log(myary);
@@ -58,7 +60,7 @@ const myary=[0,1,2,3,4,5,true,'muzamil']
 // console.log(sprd);
 
 // const nary=[1,2,3,[4,5],6,[7,8,9],['aa','bb']];
-
+// console.log(nary);
 // const aary=nary.flat(Infinity);
 // console.log(aary);
 

@@ -28,20 +28,18 @@
 //     lngname:'phyton',
 //     lngFname:'py'
 //    },
-
 //   ]
-
 //   mycode.forEach( (item)=>{
 // console.log(item.lngFname);
-//   })
+//   });
 
 //for each does not return values.
 
 // const coading=['js','c++','c','java'];
 // const values= coading.forEach((item)=>{
-//   console.log(item);
+//   // console.log(item);
 // })
-// // console.log(values);
+// console.log(values);
 
 //filter(it return values)
 
@@ -70,7 +68,7 @@
 //     newnum.push(num);
 //   }
 // })
-// // console.log(nums);
+// console.log(nums);
 // console.log(newnum);
 
 // //using map
@@ -94,10 +92,10 @@
 //   {tittle:'bk 4', gener:'since',publish:'1978',edition:2024},
 //   {tittle:'bk 5', gener:'history',publish:'1978',edition:2014},
 // ]
-// let userbooks= books.filter((item)=> item.gener === 'history')
-// //  userbooks=books.filter((item)=>{
-// //   return item .publish >=1980 && item.gener ==='history'
-// //  })
+// // let userbooks= books.filter((item)=> item.gener === 'history')
+//  userbooks=books.filter((item)=>{
+//   return item .publish >=1980 && item.gener ==='history'
+//  })
 // console.log(userbooks);
 
 // eg for each
@@ -122,7 +120,7 @@
 
 //reduce
 
-// it has accumulator(empty varable it takes initial value) and current value(current array value)
+// it has accumulator(it is empty varable and takes initial value) , current value(current array value)
 
 // const nums=[1,2,3,4,5]
 // const nwnum=nums.reduce((acc,cv)=>{
@@ -134,19 +132,19 @@
 // const scard=[
 //   {
 //     iname:"js course",
-//     price:1299,
+//     price:10,
 //   },
 //   {
 //     iname:"data science",
-//     price:3999,
+//     price:30,
 //   },
 //   {
 //     iname:"machine learning",
-//     price:5999,
+//     price:50,
 //   },
 //   {
 //     iname:"fullStack course",
-//     price:7299,
+//     price:100,
 //   }
 // ]
 

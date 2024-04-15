@@ -17,11 +17,11 @@
 // let score='zxcvbn'
 // console.log(typeof score);
 
-// let num=Number(score);
+// let num=Number('score');
 // console.log(typeof num);
 // console.log(num);
 
-// let str=String(score);
+// let str=String('score');
 // console.log(typeof str);
 // console.log(str);
 
@@ -61,10 +61,10 @@
 // console.log(typeof name);
 
 // const game=new String('muzamil');
-// console.log(game[0].toUpperCase());
+// console.log(game.toUpperCase());
 // console.log(game.__proto__);
 // console.log(game.length);
-// console.log(game.toUpperCase());
+// // console.log(game.toUpperCase());
 // console.log(game.charAt(1));
 // console.log(game.indexOf('u'));
 
@@ -122,7 +122,7 @@
 
 
 // let dated=new Date(2000,8,14);
-// let dated=new Date(2000,8,14,5,6,3);
+// let dated=new Date(2000,8,14,5,55,30);
 // let dated=new Date("2000-9-14");
 // let dated=new Date("09-14-2000");
 // console.log(dated);
