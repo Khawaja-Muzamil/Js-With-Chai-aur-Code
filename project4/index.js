@@ -25,8 +25,8 @@ if(isNaN(guess)){
 alert("plese enter a valid number")
 } else if( guess<1){
 alert("plese enter a  number grater tha 1")
-}else if( guess>100){
-  alert("plese enter a  number less than 100")
+}else if( guess>10){
+  alert("plese enter a  number less than 1 0")
   }else{
     PreviousGuess.push(guess)
     if(numGuess === 11){

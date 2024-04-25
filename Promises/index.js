@@ -1,10 +1,10 @@
 // API IS intermediater (help to communicate )
 
 // api.github
-//randomuser.me  
-//jason formattor.
+// randomuser.me  
+// jason formattor.
 
-//Fetching data using https.
+// Fetching data using https.
 
 // const requestUrl='https://api.github.com/users/hiteshchoudhary'
 // const xhr= new XMLHttpRequest();
@@ -143,25 +143,25 @@
 
 //fetch
 
-async function getallusers(){
-  try{
-  const response= await fetch('https://jsonplaceholder.typicode.com/users')
-  const data= await response.json()
-  console.log(data);
-}catch(error){
-  console.log(error);
-}
-}
-getallusers();
+// async function getallusers(){
+//   try{
+//   const response= await fetch('https://jsonplaceholder.typicode.com/users')
+//   const data= await response.json()
+//   console.log(data);
+// }catch(error){
+//   console.log(error);
+// }
+// }
+// getallusers();
 
-//fetch using then and catch
+// //fetch using then and catch
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((responce)=>{
-  return responce.json()
-}).then((data)=>{
-console.log(data);
-})
-.catch((error)=>{
-  console.log(error);
-})
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then((responce)=>{
+//   return responce.json()
+// }).then((data)=>{
+// console.log(data);
+// })
+// .catch((error)=>{
+//   console.log(error);
+// })

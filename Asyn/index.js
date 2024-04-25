@@ -5,7 +5,7 @@
 // },1000);
 
 //or
-// const fun=()=>{
+// const fun=function(){
 //   console.log('muzamil');
 // }
 // setTimeout(fun,1000);
@@ -43,7 +43,7 @@
 //   }
 //   return color;
 // }
-// // console.log(randomcolor());
+// // // console.log(randomcolor());
 // let intervalId;
 // const startchangingcolor=function(){
 //   if(!intervalId){

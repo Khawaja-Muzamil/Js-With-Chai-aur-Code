@@ -18,8 +18,7 @@
 //clientX,clientY,screenX,screenY
 //altKey,ctrlkey,shiftkey,keycode
 
-// -->event propagration(means going bottom to top  innerelement to outerelement)
-// event bubling
+// -->event propagration(means going bottom to top  innerelement to outerelement) or event bubling
 // event capturing( it goes from top to bottom , ist outer ele. than inner ele.)
 
 //  --->event bubling
