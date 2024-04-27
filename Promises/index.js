@@ -97,7 +97,7 @@
 //   setTimeout(() => {
 //    let error=false;
 //    if(!error){
-//     //     resolve({username:'muzamil',password:'q34567'})
+//     resolve({username:'muzamil',password:'q34567'})
 //    }else{
 //     reject('something went wrong');
 //    }
