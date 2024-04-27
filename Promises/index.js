@@ -30,16 +30,17 @@
 //           const data = Math.random() * 1;
 //           if (data >0.5) {
 //               resolve('Data fetched successfully');
-// Resolve the promise with the fetched data.
+// // Resolve the promise with the fetched data.
 //           } else {
-//               reject(new Error('Failed to fetch data')); // Reject the promise with an error
+//               reject(new Error('Failed to fetch data'));
+//                // Reject the promise with an error
 //           }
 //       }, 1000); // Simulating a delay of 1 seconds
-//   
+  
 // });
 // }
 
-// // Using the promise
+// // // Using the promise
 
 // fetchData()
 //   .then((result) => {
@@ -56,7 +57,7 @@
 // rejected
 
 // const promise1=new Promise((resolve,reject)=>{
-// //   //do an async task like database call , cryptography ,network call.
+// // //   //do an async task like database call , cryptography ,network call.
 
 //   setTimeout(() => {
 //     console.log('Aysnc task is complete');
@@ -66,7 +67,7 @@
 // promise1
 // .then(()=>{
 //   console.log('promise consumed');
-// })
+// });
 
 // new Promise((resolve, reject) => {
 //   setTimeout(() => {
@@ -86,6 +87,7 @@
 //     })
 //   }, 1000);
 // })
+
 // promise3
 // .then((user)=>{
 // console.log(user);
@@ -95,7 +97,7 @@
 //   setTimeout(() => {
 //    let error=false;
 //    if(!error){
-//     resolve({username:'muzamil',password:'q34567'})
+//     //     resolve({username:'muzamil',password:'q34567'})
 //    }else{
 //     reject('something went wrong');
 //    }
