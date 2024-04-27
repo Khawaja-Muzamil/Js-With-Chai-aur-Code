@@ -10,31 +10,33 @@
 // const xhr= new XMLHttpRequest();
 // xhr.open('GET',requestUrl)
 // xhr.onreadystatechange=function(){
-//   // console.log(xhr.readyState);
+//// console.log(xhr.readyState);
 //   if(xhr.readyState === 4){
 //     const data= JSON.parse(this.responseText);
 //     console.log(typeof data);
 //     console.log(data.followers);
 //   }
 // }
-// xhr.send();
+//  xhr.send();
 
-// ---> promise
+// ---> promise. ;.
 
-// Example asynchronous function that returns a promise
+// Example asynchronous function that returns a promise.
 
 // function fetchData() {
 //   return new Promise((resolve, reject) => {
-//       // Simulating asynchronous operation (e.g., fetching data from a server)
+// // Simulating asynchronous operation (e.g., fetching data from a server)
 //       setTimeout(() => {
 //           const data = Math.random() * 1;
 //           if (data >0.5) {
-//               resolve('Data fetched successfully'); // Resolve the promise with the fetched data
+//               resolve('Data fetched successfully');
+// Resolve the promise with the fetched data.
 //           } else {
 //               reject(new Error('Failed to fetch data')); // Reject the promise with an error
 //           }
 //       }, 1000); // Simulating a delay of 1 seconds
-//   });
+//   
+// });
 // }
 
 // // Using the promise
