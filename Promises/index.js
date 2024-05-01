@@ -95,7 +95,7 @@
 
 // const promise4=new Promise((resolve, reject) => {
 //   setTimeout(() => {
-//    let error=false;
+//    let error=true;
 //    if(!error){
 //     resolve({username:'muzamil',password:'q34567'})
 //    }else{
@@ -108,8 +108,8 @@
 //   console.log(user);
 //   return user.username;
 // })
-// .then((username)=>{
-//   console.log(username);
+// .then((uername)=>{
+//   console.log(uername);
 // })
 // .catch((error)=>{
 //   console.log(error);
@@ -117,8 +117,6 @@
 // .finally(()=>{
 //   console.log('the promise is either resolved or rejected');
 // })
-
-
 // const promise5=new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //    let error=false;
@@ -129,12 +127,12 @@
 //    }
 //   }, 1000);
 // });
-// async function consumepromise5(){
-//   const response=await promise5;
-//   console.log(response.username);
-// }
-// consumepromise5()
- //or
+// // async function consumepromise5(){
+// //   const response=await promise5;
+// //   console.log(response.username);
+// // }
+// // consumepromise5()
+//  //or
 // async function consumepromise5(){
 //     try {
 //       const response=await promise5
