@@ -117,6 +117,7 @@
 // .finally(()=>{
 //   console.log('the promise is either resolved or rejected');
 // })
+
 // const promise5=new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //    let error=false;
@@ -156,6 +157,7 @@
 // }
 // getallusers();
 
+
 // //fetch using then and catch
 
 // fetch('https://jsonplaceholder.typicode.com/users')
@@ -166,4 +168,4 @@
 // })
 // .catch((error)=>{
 //   console.log(error);
-// })
+// });
