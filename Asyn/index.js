@@ -10,15 +10,7 @@
 // }
 // setTimeout(fun,1000);
 
-// const fun1=()=>{
-//   document.querySelector("h1").innerHTML="Muzamil"
-// }
-// const changetext=setTimeout(fun1,2000);
-
-// document.querySelector("#stop").addEventListener(('click'),(e)=>{
-// clearTimeout(changetext)
-// })
-
+//  
 
 //==> set interval
 // (for start and stop running program)
@@ -43,7 +35,7 @@
 //   }
 //   return color;
 // }
-// // // console.log(randomcolor());
+// // console.log(randomcolor());
 // let intervalId;
 // const startchangingcolor=function(){
 //   if(!intervalId){
