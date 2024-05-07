@@ -6,7 +6,8 @@
 // console.log(myary[7]);
 // const ary=['aa','bb',];
 // const aryy=new Array(1,2,3,4);
-// console.log(aryy[3]);
+// console.log
+// (aryy[3]);
 
 // const number=[1,2,3,4,5,6];
 // console.log(number);
@@ -16,7 +17,7 @@
 // // push
 // const myary=[0,1,2,3,4,5,true,'muzamil']
 // myary.push(6);
-// console.log(myary);
+// console.log(typeof myary);
 
 // //pop
 // myary.pop();
@@ -33,13 +34,12 @@
 // console.log(typeof newary);
 
 //slice (orginal array is not changed)
-
 // console.log( myary);
-// const new2=myary.slice(1 ,3);
+// const new2=myary.slice(0,3);
 // console.log(new2);
 // console.log(myary);
 
-//splice(in this orginal array is changed )
+// splice(in this orginal array is changed )
 // console.log(myary);
 // const new1=myary.splice(0,3);
 // console.log(new1);
@@ -48,10 +48,11 @@
 // const mh=['aa','bb','cc'];
 // const dc=['dd','ee','ff'];
 
+//push
 // mh.push(dc);
 // console.log(mh);
 
-//concat
+// //concat
 // let ccat=mh.concat(dc);
 // console.log(ccat);
 

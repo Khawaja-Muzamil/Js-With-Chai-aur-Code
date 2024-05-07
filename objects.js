@@ -1,17 +1,18 @@
-"use strict"
+// "use strict"
 
 //object literals
-// const obj={
-//   name:"muzzamil",
-//   "fullName":"kh muzamil",
-//   age:22,
-//   city:'srinagar',
-//   email:'khawjajsj@gmail.com',
-// }
+
+const obj={
+  name:"muzzamil",
+  "fullName":"kh muzamil",
+  age:22,
+  city:'srinagar',
+  email:'khawjajsj@gmail.com',
+}
 
 // console.log(obj.name);
 // console.log(obj['name']);
-// console.log(obj.fullName);
+// // console.log(obj.fullName);
 
 //change data
 // obj.age=23;
@@ -35,8 +36,9 @@
 // --->new way to represent objects
 
 // singleton
-// const tinder= new Object(); //singleton object
-// console.log(tinder);
+
+const tinder= new Object(); //singleton object
+console.log(tinder);
 
 // const tinder= {}  //non singleton object
 // console.log(tinder);
@@ -54,9 +56,7 @@
 // console.log(tinder.hasOwnProperty('id'));
 
 
-
 //objects inside objects
-
 
 // const ruser={
 //   email:'sum@gmail.com',

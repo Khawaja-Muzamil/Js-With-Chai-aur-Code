@@ -44,6 +44,7 @@
 //  string, number,boolea,null,undefined,symbol, bigint
 
 
+
 //nonpremitive / refrence type
 
 // arrays,objects,functions
@@ -102,7 +103,6 @@
 // console.log(Math.floor(4.9));
 // console.log(Math.sqrt(36));
 // console.log(Math.min(4,3,5,1,7));
-// console.log(Math.max(4,3,5,1,7));
 // console.log(Math.random());
 
 // const min=10
