@@ -37,8 +37,8 @@ const obj={
 
 // singleton
 
-const tinder= new Object(); //singleton object
-console.log(tinder);
+// const tinder= new Object(); //singleton object
+// console.log(tinder);
 
 // const tinder= {}  //non singleton object
 // console.log(tinder);
